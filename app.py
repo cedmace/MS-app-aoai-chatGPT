@@ -41,7 +41,7 @@ load_dotenv()
 UI_TITLE = os.environ.get("UI_TITLE") or "BeGPT WEB"
 UI_LOGO = os.environ.get("UI_LOGO")
 UI_CHAT_LOGO = os.environ.get("UI_CHAT_LOGO")
-UI_CHAT_TITLE = os.environ.get("UI_CHAT_TITLE") or "Que puis-je faire pour vous aujourd'hi ?"
+UI_CHAT_TITLE = os.environ.get("UI_CHAT_TITLE") or "Que puis-je faire pour vous aujourd'hui ?"
 UI_CHAT_DESCRIPTION = (
     os.environ.get("UI_CHAT_DESCRIPTION")
     or "BeGPT est là pour vous assister"
