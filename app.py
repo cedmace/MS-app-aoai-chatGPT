@@ -38,15 +38,15 @@ MINIMUM_SUPPORTED_AZURE_OPENAI_PREVIEW_API_VERSION = "2024-02-15-preview"
 load_dotenv()
 
 # UI configuration (optional)
-UI_TITLE = os.environ.get("UI_TITLE") or "BeGPT WEB"
-UI_LOGO = os.environ.get("UI_LOGO")
-UI_CHAT_LOGO = os.environ.get("UI_CHAT_LOGO")
+UI_TITLE = os.environ.get("UI_TITLE") #or "begpt"
+UI_LOGO = os.environ.get("UI_LOGO") #or "https://lsvconseilitc-my.sharepoint.com/:i:/g/personal/cmace_be-cloud_fr/EfVkbuH4UA5JgdejWuVo3j0B46NYPio0bH5g2Avee-Agfw?e=rORKDL"
+UI_CHAT_LOGO = os.environ.get("UI_CHAT_LOGO") #or "/frontend/public/NewLogo-Be-CLOUD-couleurs.png"
 UI_CHAT_TITLE = os.environ.get("UI_CHAT_TITLE") or "Que puis-je faire pour vous aujourd'hui ?"
 UI_CHAT_DESCRIPTION = (
     os.environ.get("UI_CHAT_DESCRIPTION")
     or "BeGPT est là pour vous assister"
 )
-UI_FAVICON = os.environ.get("UI_FAVICON") or "/favicon.ico"
+UI_FAVICON = os.environ.get("UI_FAVICON") #or "/BeGPT Logo.ico"
 UI_SHOW_SHARE_BUTTON = os.environ.get("UI_SHOW_SHARE_BUTTON", "true").lower() == "true"
 
 
