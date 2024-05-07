@@ -39,8 +39,8 @@ load_dotenv()
 
 # UI configuration (optional)
 UI_TITLE = os.environ.get("UI_TITLE") #or "begpt"
-UI_LOGO = os.environ.get("UI_LOGO") #or "https://lsvconseilitc-my.sharepoint.com/:i:/g/personal/cmace_be-cloud_fr/EfVkbuH4UA5JgdejWuVo3j0B46NYPio0bH5g2Avee-Agfw?e=rORKDL"
-UI_CHAT_LOGO = os.environ.get("UI_CHAT_LOGO") #or "/frontend/public/NewLogo-Be-CLOUD-couleurs.png"
+UI_LOGO = os.environ.get("UI_LOGO") 
+UI_CHAT_LOGO = os.environ.get("UI_CHAT_LOGO") 
 UI_CHAT_TITLE = os.environ.get("UI_CHAT_TITLE") or "Que puis-je faire pour vous aujourd'hui ?"
 UI_CHAT_DESCRIPTION = (
     os.environ.get("UI_CHAT_DESCRIPTION")
